@@ -1,0 +1,187 @@
+body{
+    background: url(bg.jpg);
+    background-size: cover;
+    background-position: top;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    padding: 0 30px;
+}
+.bread{
+    width: 22%;
+    height: 30%;
+    left: 0.5%;
+    top: 2%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    /* transform: translate(-50%, -50%); */
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: -5px 5px 5px rgb(61, 60, 60);
+}
+.bread_title{
+    width: 100%;
+    height: 30%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 2px solid grey;
+}
+.bread_title p{
+    top: 0;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -20%);
+    text-align: center;
+    font-size: 24px;
+    color: rgb(122, 115, 115);
+}
+.bun{
+    width: 47%;
+    height: 30%;
+    top: 33%;
+    left: 2%;
+    position: absolute;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: -2px 2px 2px rgb(61, 59, 59);
+}
+.bun p{
+    top: 0;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -20%);
+    text-align: center;
+    font-size: 24px;
+    color: rgb(122, 115, 115);
+}
+.euro_bread{
+    width: 47%;
+    height: 30%;
+    top: 33%;
+    left: 51%;
+    position: absolute;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: -2px 2px 2px rgb(61, 59, 59);
+}
+/*
+.euro_bread p{
+    top: 0;
+    //left: 50%;
+    position: absolute;
+    //transform: translate(-50%, -20%);
+    text-align: center;
+    font-size: 24px;
+    color: rgb(122, 115, 115);
+}   */
+.frence_bread{
+    width: 47%;
+    height: 30%;
+    top: 66%;
+    left: 2%;
+    position: absolute;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: -2px 2px 2px rgb(61, 59, 59);
+}
+.denish{
+    width: 47%;
+    height: 30%;
+    top: 66%;
+    left: 51%;
+    position: absolute;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: -2px 2px 2px rgb(61, 59, 59);
+}
+
+.cake{
+    width: 22%;
+    height: 30%;
+    left: 23%;
+    top: 2%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    /* transform: translate(-50%, -50%); */
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: -5px 5px 5px rgb(61, 60, 60);
+}
+.beverage{
+    width: 22%;
+    height: 30%;
+    left: 45.5%;
+    top: 2%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    /* transform: translate(-50%, -50%); */
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: -5px 5px 5px rgb(61, 60, 60);
+}
+.items{
+    width: 67%;
+    height: 40%;
+    left: 0.5%;
+    top: 33%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    /* transform: translate(-50%, -50%); */
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: -5px 5px 5px rgb(61, 60, 60);
+}
+.controls_box{
+    width: 54%;
+    height: 12%;
+    left: 0.5%;
+    top: 74%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    /* transform: translate(-50%, -50%); */
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: -5px 5px 5px rgb(61, 60, 60);
+}
+.scroll{
+    width: 12.5%;
+    height: 12%;
+    left: 55%;
+    top: 74%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    /* transform: translate(-50%, -50%); */
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: -5px 5px 5px rgb(61, 60, 60);
+}
+.signout{
+    width: 12.5%;
+    height: 12%;
+    left: 0.5%;
+    top: 87%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    /* transform: translate(-50%, -50%); */
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: -5px 5px 5px rgb(61, 60, 60);
+}
+.signout button{
+    width: 90%;
+    height: 80%;
+    left: 5%;
+    top: 10%;
+    position: absolute;
+    color: #fff;
+    background: rgb(224, 82, 82);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
